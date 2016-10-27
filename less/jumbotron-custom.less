@@ -1,0 +1,27 @@
+
+.jumbotron {
+    h1, h2 {
+	margin: 0;
+	text-align: center;
+	color: white;
+    }
+    h2 {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	font-size: @font-size-h4;
+    }
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: @screen-xs-min) {
+    .jumbotron h2 {
+	font-size: @font-size-h2;
+    }
+}
+
+@media screen and (min-width: @screen-sm-min) {
+    .jumbotron h2 {
+	font-size: @font-size-h1;
+    }
+}
